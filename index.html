@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Casa en Merlo San Luis</title>
+  <!-- Fontawesome -->
+  <script src="https://kit.fontawesome.com/8d6dd23479.js" crossorigin="anonymous"></script>
+  <!-- Bootstrap 5.3 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <!-- Google Fonts -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+  <!-- Custom Styles modifying bootstrap -->
+  <link rel="stylesheet" href="./assets/css/custom-styles.css">
+</head>
+
+<body>
+  <header>
+    <!-- NavBar -->
+    <section id="navbar-section">
+      <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">PALO BORRACHO <img height="41" class="mb-2" id="paloborracho-icon"
+              src="assets/img/paloborracho.svg" alt="Icono Palo Borracho"></img> </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#navbar-section">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#carousel-section">Carrousel</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#cards-group-section">Instalaciones</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#horizontal-card">Pileta</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#formulario-contacto">Forms</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Reserva ya!</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </section>
+  </header>
+
+  <main>
+    <!-- Carousel -->
+    <section id="carousel-section">
+      <div id="myCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="4000">
+        <div class="carousel-inner">
+          <div class="carousel-container container-xs text-end">
+            <div class="h1">Casa en Merlo San Luis</div>
+            <p>Bienvenidos/as a nuestro hogar en Merlo! Casa para 7 personas a pocas cuadras del arroyo.</p>
+            <div class="carousel-buttons">
+              <a class="btn text-white bg-dark" href="#formulario-contacto" role="button">Contacto</a>
+              <a class="btn text-black bg-light" href="" role="button">Reserva ya!</a>
+            </div>
+          </div>
+          <div>
+            <div class="carousel-item active">
+              <div class="gradient"></div>
+              <img class="d-block img-fluid" src="./assets/img/casa.jpg" alt="First slide">
+            </div>
+            <div class="carousel-item">
+              <div class="gradient"></div>
+              <img class="d-block img-fluid" src="./assets/img/pileta.jpg" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+              <div class="gradient"></div>
+              <img class="d-block img-fluid" src="./assets/img/casa_3.jpg" alt="Third slide">
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" data-bs-target="#myCarousel" type="button" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </button>
+        <button class="carousel-control-next" data-bs-target="#myCarousel" type="button" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Cards Section-->
+    <section id="cards-group-section">
+      <div class="div bg-dark border-dark p-3">
+        <div class="h2 text-white text-center">Disfrutá nuestras instalaciones!</div>
+      </div>
+      <div class="card-group">
+        <div class="card text-white bg-dark">
+          <img class="card-img-top mx-auto p-1" src="./assets/img/dormitorio_1_268px.jpg" alt="Dormitorio">
+          <div class="card-body">
+            <h5 class="card-title">Dormitorio 1</h5>
+            <p class="card-text">Dormitorio con 2 camas individuales</p>
+          </div>
+        </div>
+        <div class="card text-white bg-dark">
+          <img class="card-img-top mx-auto p-1" src="./assets/img/dormitorio_2_268px.jpg" alt="Dormitorio">
+          <div class="card-body">
+            <h5 class="card-title">Dormitorio 2</h5>
+            <p class="card-text">Dormitorio con cama matrimonial</p>
+          </div>
+        </div>
+        <div class="card text-white bg-dark">
+          <img class="card-img-top mx-auto p-1" src="./assets/img/living_268px.jpg" alt="Living">
+          <div class="card-body">
+            <h5 class="card-title ">Living</h5>
+            <p class="card-text">Living con comedor y sala de estar con vistas a la montana.<br>Incluye TV con cable y
+              sillones.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Horizontal Card -->
+    <section class="" id="horizontal-card">
+      <div class="card text-white bg-dark mb-6">
+        <div class="row g-0">
+          <div class="col-xs-12 col-md-6">
+            <img src="./assets/img/pileta.jpg" class="img-fluid rounded-start" alt="Pileta">
+          </div>
+          <div class="col-md-6">
+            <div class="card-body">
+              <h5 class="card-title">Pileta <span class="badge rounded-pill bg-light text-dark">Privada</span> </h5>
+
+              <p class="card-text">Disfruta de nuestra pileta de uso privado en el verano!</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Formulario -->
+    <section class="mt-5" id="formulario-contacto">
+      <div class="forms-container col-sm-6 offset-sm-3 border border-dark rounded p-4">
+        <form class="row g-3">
+          <legend>Formulario de contacto</legend>
+          <div class="col-sm-6">
+            <label for="name-text" class="form-label">Nombre</label>
+            <input type="t" class="form-control" id="name-text">
+          </div>
+          <div class="col-sm-6">
+            <label for="lastname-text" class="form-label">Apellido</label>
+            <input type="text" class="form-control" id="lastname-text">
+          </div>
+          <div class="col-12">
+            <label for="inputEmail" class="form-label">Correo</label>
+            <input type="email" class="form-control" id="inputEmail" placeholder="youremail@gmail.com">
+          </div>
+          <label for="aditionalMessageTextArea" class="form-floating">Comentarios Adicionales</label>
+          <div class="form-floating">
+            <textarea class="form-control" placeholder="Leave a comment here" id="aditionalMessageTextArea"></textarea>
+          </div>
+          <div class="col-12">
+            <button type="submit" class="btn btn-dark">Send</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+
+  <!-- Footer -->
+  <footer class="text-center text-white bg-dark">
+    <!-- Grid container -->
+    <div class="w3-container">
+      <!-- Section: Links -->
+      <section class="mt-5">
+        <!-- Grid row-->
+        <div class="row text-center d-flex justify-content-center pt-5">
+          <!-- Grid column -->
+          <div class="col-md-2">
+            <h6 class="text-uppercase font-weight-bold">
+              <a href="#!" class="text-white">Acerca de Nosotros</a>
+            </h6>
+          </div>
+          <!-- Grid column -->
+          <div class="col-md-2">
+            <h6 class="text-uppercase font-weight-bold">
+              <a href="#formulario-contacto" class="text-white">Contactanos</a>
+            </h6>
+          </div>
+          <!-- Grid column -->
+          <div class="col-md-2">
+            <h6 class="text-uppercase font-weight-bold">
+              <a href="#!" class="text-white">Preguntas Frecuentes</a>
+            </h6>
+          </div>
+          <!-- Grid column -->
+          <div class="col-md-2">
+            <h6 class="text-uppercase font-weight-bold">
+              <a href="#!" class="text-white">Turismo</a>
+            </h6>
+          </div>
+          <!-- Grid column -->
+          <div class="col-md-2">
+            <h6 class="text-uppercase font-weight-bold">
+              <a href="#!" class="text-white">Donde Estamos</a>
+            </h6>
+          </div>
+        </div>
+      </section>
+
+      <hr class="mt-5" />
+
+      <!-- Section: Social -->
+      <section class="text-center my-5">
+        <a class="text-white me-4">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a class="text-white me-4">
+          <i class="fab fa-instagram"></i>
+        </a>
+      </section>
+      <!-- Section: Social -->
+    </div>
+
+    <!-- Copyright -->
+    <div class="copyright-text text-center p-3">
+      © 2023 Cabana en Merlo San Luis
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
